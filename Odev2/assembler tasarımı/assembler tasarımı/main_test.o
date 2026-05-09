@@ -1,0 +1,49 @@
+{
+  "FileName": "main_test.o",
+  "TextSegment": [
+    "0x0000 : 0x00500513    # addi x10, x0, 5      # D\u00F6ng\u00FC sayac\u0131 (N = 5 iterasyon)",
+    "0x0004 : 0x80000593    # addi x11, x0, 2048   # Verinin yaz\u0131laca\u011F\u0131 RAM taban adresi (0x0800 = 2048)",
+    "0x0008 : 0x00000613    # addi x12, x0, 0      # \u0130\u015Flenecek ba\u015Flang\u0131\u00E7 de\u011Feri (Accumulator)",
+    "0x000C : 0x00050C63    # beq x10, x0, end     # Saya\u00E7 0 ise d\u00F6ng\u00FCden \u00E7\u0131k (B-Type test)",
+    "0x0010 : 0x000000EF    # jal x1, process_data # Harici fonksiyona git ve x1\u0027e d\u00F6n\u00FC\u015F adresini kaydet (J-Type ve Extern test)",
+    "0x0014 : 0x00D5A023    # sw x13, x11, 0       # process_data\u0027dan x13 i\u00E7inde d\u00F6nen sonucu belle\u011Fe yaz (S-Type test)",
+    "0x0018 : 0x00458593    # addi x11, x11, 4     # Bellek adresini bir word (4 byte) art\u0131r (I-Type test)",
+    "0x001C : 0xFFF50513    # addi x10, x10, -1    # Sayac\u0131 1 azalt",
+    "0x0020 : 0xFEDFF06F    # jal x0, loop         # Ba\u015Fa d\u00F6n (J-Type pseudo-branch test)",
+    "0x0024 : 0x0000006F    # jal x0, end          # Program\u0131 g\u00FCvenli bir \u015Fekilde sonsuz d\u00F6ng\u00FCde bitir"
+  ],
+  "DataSegment": [
+    "0x0000 : 0x00000000    # .word 0"
+  ],
+  "SymbolTable": {
+    "start": {
+      "Address": 0,
+      "Segment": "Text"
+    },
+    "loop": {
+      "Address": 12,
+      "Segment": "Text"
+    },
+    "end": {
+      "Address": 36,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "start"
+  ],
+  "ReferenceTable": {
+    "1": "process_data"
+  },
+  "RelocationTable": [
+    {
+      "Address": 16,
+      "InstructionType": "J",
+      "TargetRefId": 1,
+      "Operation": "\u002B"
+    }
+  ],
+  "ExternalSymbols": [
+    "process_data"
+  ]
+}

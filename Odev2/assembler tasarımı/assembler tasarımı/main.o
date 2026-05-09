@@ -1,0 +1,49 @@
+{
+  "FileName": "main.o",
+  "TextSegment": [
+    "0x0000 : 0x40000213    # addi x4, x0, 1024   # Verilog\u0027da ayarlad\u0131\u011F\u0131n LED haf\u0131za adresi (0x400 = 1024)",
+    "0x0004 : 0x0FF00393    # addi x7, x0, 255    # 255 (Binary: 11111111) -\u003E Verilog tersleyip 0 yapacak, LED\u0027ler YANACAK",
+    "0x0008 : 0x00000413    # addi x8, x0, 0      # 0 (Binary: 00000000) -\u003E Verilog tersleyip 1 yapacak, LED\u0027ler S\u00D6NECEK",
+    "0x000C : 0x00722023    # sw x7, x4, 0        # LED\u0027leri YAK",
+    "0x0010 : 0x000000EF    # jal x1, bekle_fonksiyonu   # Gecikme fonksiyonuna git",
+    "0x0014 : 0x00822023    # sw x8, x4, 0        # LED\u0027leri S\u00D6ND\u00DCR",
+    "0x0018 : 0x000000EF    # jal x1, bekle_fonksiyonu   # Gecikme fonksiyonuna git",
+    "0x001C : 0xFF1FF06F    # jal x0, sonsuz_dongu # Ba\u015Fa d\u00F6n ve sonsuza kadar tekrarla"
+  ],
+  "DataSegment": [
+    "0x0000 : 0x00000000    # .word 0"
+  ],
+  "SymbolTable": {
+    "start": {
+      "Address": 0,
+      "Segment": "Text"
+    },
+    "sonsuz_dongu": {
+      "Address": 12,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "start"
+  ],
+  "ReferenceTable": {
+    "1": "bekle_fonksiyonu"
+  },
+  "RelocationTable": [
+    {
+      "Address": 16,
+      "InstructionType": "J",
+      "TargetRefId": 1,
+      "Operation": "\u002B"
+    },
+    {
+      "Address": 24,
+      "InstructionType": "J",
+      "TargetRefId": 1,
+      "Operation": "\u002B"
+    }
+  ],
+  "ExternalSymbols": [
+    "bekle_fonksiyonu"
+  ]
+}

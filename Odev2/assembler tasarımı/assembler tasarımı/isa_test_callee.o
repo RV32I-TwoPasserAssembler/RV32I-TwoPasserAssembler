@@ -1,0 +1,22 @@
+{
+  "FileName": "isa_test_callee.o",
+  "TextSegment": [
+    "0x0000 : 0x00B50633    # add x12, x10, x11",
+    "0x0004 : 0x00008067    # jalr x0, x1, 0"
+  ],
+  "DataSegment": [
+    "0x0000 : 0x000003E7    # .word 999  # Data segmentin adreslemesini kontrol etmek i\u00E7in Dummy Veri"
+  ],
+  "SymbolTable": {
+    "math_leaf_procedure": {
+      "Address": 0,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "math_leaf_procedure"
+  ],
+  "ReferenceTable": {},
+  "RelocationTable": [],
+  "ExternalSymbols": []
+}

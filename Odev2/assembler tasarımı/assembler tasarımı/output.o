@@ -1,0 +1,22 @@
+{
+  "FileName": "output.o",
+  "TextSegment": [
+    "0x0000 : 0x00A00093    # addi x1, x0, 10",
+    "0x0004 : 0x00000063    # beq x0, x0, bekle_fonksiyonu  # x0 her zaman x0\u0027a e\u015Fittir, bu y\u00FCzden kesin dallan\u0131r",
+    "0x0008 : 0x01400113    # addi x2, x0, 20"
+  ],
+  "SymbolTable": {
+    "start": 0,
+    "end": 8
+  },
+  "ExternalSymbols": [
+    "bekle_fonksiyonu"
+  ],
+  "RelocationTable": [
+    {
+      "Address": 4,
+      "TargetLabel": "bekle_fonksiyonu",
+      "InstructionType": "B"
+    }
+  ]
+}

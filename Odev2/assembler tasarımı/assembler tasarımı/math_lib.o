@@ -1,0 +1,23 @@
+{
+  "FileName": "math_lib.o",
+  "TextSegment": [
+    "0x0000 : 0x00A60693    # addi x13, x12, 10    # x13 = x12 \u002B 10  (\u00D6rnek bir aritmetik i\u015Flem)",
+    "0x0004 : 0x00D60633    # add x12, x12, x13    # x12 = x12 \u002B x13 (Bir sonraki tur i\u00E7in R-Type add testi)",
+    "0x0008 : 0x00008067    # jalr x0, x1, 0       # \u00C7a\u011Fr\u0131ld\u0131\u011F\u0131 yere (main_test.s i\u00E7indeki loop\u0027a) d\u00F6n (I-Type test)"
+  ],
+  "DataSegment": [
+    "0x0000 : 0x000003E7    # .word 999                # Data segment kayd\u0131rma (shift) testini do\u011Frulamak i\u00E7in dummy veri"
+  ],
+  "SymbolTable": {
+    "process_data": {
+      "Address": 0,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "process_data"
+  ],
+  "ReferenceTable": {},
+  "RelocationTable": [],
+  "ExternalSymbols": []
+}

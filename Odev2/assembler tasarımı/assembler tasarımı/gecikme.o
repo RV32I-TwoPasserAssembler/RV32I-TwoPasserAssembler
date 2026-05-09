@@ -1,0 +1,33 @@
+{
+  "FileName": "gecikme.o",
+  "TextSegment": [
+    "0x0000 : 0x7D000293    # addi x5, x0, 2000    # D\u0131\u015F d\u00F6ng\u00FC: 2000",
+    "0x0004 : 0x7D000313    # addi x6, x0, 2000    # \u0130\u00E7 d\u00F6ng\u00FC: 2000",
+    "0x0008 : 0xFFF30313    # addi x6, x6, -1",
+    "0x000C : 0xFE031EE3    # bne x6, x0, ic_dongu # \u0130\u00E7 d\u00F6ng\u00FC bitene kadar d\u00F6n",
+    "0x0010 : 0xFFF28293    # addi x5, x5, -1",
+    "0x0014 : 0xFE0298E3    # bne x5, x0, dis_dongu # D\u0131\u015F d\u00F6ng\u00FC bitene kadar d\u00F6n",
+    "0x0018 : 0x00008067    # jalr x0, x1, 0       # \u00C7a\u011Fr\u0131ld\u0131\u011F\u0131 yere (main.s) geri d\u00F6n"
+  ],
+  "DataSegment": [],
+  "SymbolTable": {
+    "bekle_fonksiyonu": {
+      "Address": 0,
+      "Segment": "Text"
+    },
+    "dis_dongu": {
+      "Address": 4,
+      "Segment": "Text"
+    },
+    "ic_dongu": {
+      "Address": 8,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "bekle_fonksiyonu"
+  ],
+  "ReferenceTable": {},
+  "RelocationTable": [],
+  "ExternalSymbols": []
+}

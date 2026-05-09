@@ -1,0 +1,41 @@
+{
+  "FileName": "isa_test_caller.o",
+  "TextSegment": [
+    "0x0000 : 0x09600513    # addi x10, x0, 150    # Arg\u00FCman 1 (a = 150)",
+    "0x0004 : 0x0FA00593    # addi x11, x0, 250    # Arg\u00FCman 2 (b = 250)",
+    "0x0008 : 0x80000213    # addi x4, x0, 2048    # Sonucun yaz\u0131laca\u011F\u0131 RAM adresi (0x0800)",
+    "0x000C : 0x000000EF    # jal x1, math_leaf_procedure  # Fonksiyonu \u00E7a\u011F\u0131r, d\u00F6n\u00FC\u015F adresini x1\u0027e kaydet",
+    "0x0010 : 0x00C22023    # sw x12, x4, 0        # math_leaf_procedure\u0027den d\u00F6nen x12\u0027deki sonucu RAM\u0027e yaz",
+    "0x0014 : 0x0000006F    # jal x0, sonsuz_dongu # Test bitince i\u015Flemciyi g\u00FCvenli duruma al"
+  ],
+  "DataSegment": [
+    "0x0000 : 0x00000000    # .word 0"
+  ],
+  "SymbolTable": {
+    "start": {
+      "Address": 0,
+      "Segment": "Text"
+    },
+    "sonsuz_dongu": {
+      "Address": 20,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "start"
+  ],
+  "ReferenceTable": {
+    "1": "math_leaf_procedure"
+  },
+  "RelocationTable": [
+    {
+      "Address": 12,
+      "InstructionType": "J",
+      "TargetRefId": 1,
+      "Operation": "\u002B"
+    }
+  ],
+  "ExternalSymbols": [
+    "math_leaf_procedure"
+  ]
+}

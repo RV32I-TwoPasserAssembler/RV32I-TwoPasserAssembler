@@ -1,0 +1,33 @@
+{
+  "FileName": "module.o",
+  "TextSegment": [
+    "0x0000 : 0x002081B3    # add x3, x1, x2      # x3 = 15 \u002B 25 = 40",
+    "0x0004 : 0x0000006F    # jal x0, main_donus"
+  ],
+  "DataSegment": [
+    "0x0000 : 0x00000378    # .word 888"
+  ],
+  "SymbolTable": {
+    "hesapla_modulu": {
+      "Address": 0,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "hesapla_modulu"
+  ],
+  "ReferenceTable": {
+    "1": "main_donus"
+  },
+  "RelocationTable": [
+    {
+      "Address": 4,
+      "InstructionType": "J",
+      "TargetRefId": 1,
+      "Operation": "\u002B"
+    }
+  ],
+  "ExternalSymbols": [
+    "main_donus"
+  ]
+}
