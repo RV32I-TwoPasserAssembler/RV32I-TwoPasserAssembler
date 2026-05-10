@@ -1,0 +1,29 @@
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.exe
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.deps.json
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.runtimeconfig.json
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.dll
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.pdb
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.AssemblyInfoInputs.cache
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.AssemblyInfo.cs
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.csproj.CoreCompileInputs.cache
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.dll
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\refint\assembler tasarımı.dll
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.pdb
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.genruntimeconfig.cache
+C:\Users\umuty\Desktop\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net10.0\ref\assembler tasarımı.dll
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.exe
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.deps.json
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.runtimeconfig.json
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.dll
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\bin\Debug\net10.0\assembler tasarımı.pdb
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.AssemblyInfoInputs.cache
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.AssemblyInfo.cs
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.csproj.CoreCompileInputs.cache
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.sourcelink.json
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.dll
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\refint\assembler tasarımı.dll
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.pdb
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\assembler tasarımı.genruntimeconfig.cache
+C:\Users\umuty\Desktop\Dersler_Odevler\Sistem_Programlama\Proje_Odevleri\RV32I-TwoPasserAssembler\Odev2\assembler tasarımı\assembler tasarımı\obj\Debug\net10.0\ref\assembler tasarımı.dll
