@@ -1,0 +1,47 @@
+{
+  "FileName": "test2.o",
+  "TextSegment": [
+    "0x0000 : 0x20000213    # addi x4, x0, 512    # LED donan\u0131m adresi",
+    "0x0004 : 0x00100393    # addi x7, x0, 1      # Ba\u015Flang\u0131\u00E7ta sadece 0. LED yanacak",
+    "0x0008 : 0x00722023    # sw x7, x4, 0        # LED\u0027i yak",
+    "0x000C : 0x5DC00293    # addi x5, x0, 1500",
+    "0x0010 : 0x5DC00313    # addi x6, x0, 1500",
+    "0x0014 : 0xFFF30313    # addi x6, x6, -1",
+    "0x0018 : 0xFE031EE3    # bne x6, x0, ic",
+    "0x001C : 0xFFF28293    # addi x5, x5, -1",
+    "0x0020 : 0xFE0298E3    # bne x5, x0, dis",
+    "0x0024 : 0x007383B3    # add x7, x7, x7",
+    "0x0028 : 0x04000413    # addi x8, x0, 64",
+    "0x002C : 0xFC838CE3    # beq x7, x8, basa_don",
+    "0x0030 : 0xFD9FF06F    # jal x0, kaydir"
+  ],
+  "DataSegment": [],
+  "SymbolTable": {
+    "start": {
+      "Address": 0,
+      "Segment": "Text"
+    },
+    "basa_don": {
+      "Address": 4,
+      "Segment": "Text"
+    },
+    "kaydir": {
+      "Address": 8,
+      "Segment": "Text"
+    },
+    "dis": {
+      "Address": 16,
+      "Segment": "Text"
+    },
+    "ic": {
+      "Address": 20,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "start"
+  ],
+  "ReferenceTable": {},
+  "RelocationTable": [],
+  "ExternalSymbols": []
+}

@@ -1,0 +1,49 @@
+{
+  "FileName": "test3.o",
+  "TextSegment": [
+    "0x0400 : 0x20000213    # addi x4, x0, 512    # LED adresi",
+    "0x0404 : 0x00600393    # addi x7, x0, 6",
+    "0x0408 : 0x00722023    # sw x7, x4, 0",
+    "0x040C : 0x014000EF    # jal x1, bekle_fonksiyonu  # Fonksiyona z\u0131pla ve d\u00F6n\u00FC\u015F adresini x1\u0027e kaydet",
+    "0x0410 : 0x00900393    # addi x7, x0, 9",
+    "0x0414 : 0x00722023    # sw x7, x4, 0",
+    "0x0418 : 0x008000EF    # jal x1, bekle_fonksiyonu  # Fonksiyona tekrar z\u0131pla",
+    "0x041C : 0xFE9FF06F    # jal x0, sonsuz_dongu      # D\u00F6ng\u00FCy\u00FC ba\u015Fa sar",
+    "0x0420 : 0x5DC00293    # addi x5, x0, 1500",
+    "0x0424 : 0x5DC00313    # addi x6, x0, 1500",
+    "0x0428 : 0xFFF30313    # addi x6, x6, -1",
+    "0x042C : 0xFE031EE3    # bne x6, x0, ic",
+    "0x0430 : 0xFFF28293    # addi x5, x5, -1",
+    "0x0434 : 0xFE0298E3    # bne x5, x0, dis",
+    "0x0438 : 0x00008067    # jalr x0, x1, 0            # x1\u0027de kay\u0131tl\u0131 olan adrese geri d\u00F6n!"
+  ],
+  "DataSegment": [],
+  "SymbolTable": {
+    "start": {
+      "Address": 1024,
+      "Segment": "Text"
+    },
+    "sonsuz_dongu": {
+      "Address": 1028,
+      "Segment": "Text"
+    },
+    "bekle_fonksiyonu": {
+      "Address": 1056,
+      "Segment": "Text"
+    },
+    "dis": {
+      "Address": 1060,
+      "Segment": "Text"
+    },
+    "ic": {
+      "Address": 1064,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "start"
+  ],
+  "ReferenceTable": {},
+  "RelocationTable": [],
+  "ExternalSymbols": []
+}

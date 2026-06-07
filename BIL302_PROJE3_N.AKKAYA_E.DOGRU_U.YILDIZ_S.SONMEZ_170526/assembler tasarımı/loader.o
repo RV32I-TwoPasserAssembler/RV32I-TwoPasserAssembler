@@ -1,0 +1,145 @@
+{
+  "FileName": "loader.o",
+  "TextSegment": [
+    "0x0000 : 0x10000513    # addi x10, x0, 256      # x10 = RX_STATUS  = 0x0100",
+    "0x0004 : 0x10400593    # addi x11, x0, 260      # x11 = RX_DATA    = 0x0104",
+    "0x0008 : 0x00000833    # add x16, x0, x0        # x16 = checksum = 0 (Ba\u015Flang\u0131\u00E7ta s\u0131f\u0131rla)",
+    "0x000C : 0x32000A13    # addi x20, x0, 800      # x20 = ge\u00E7ici adres alan\u0131 = 0x00F0",
+    "0x0010 : 0x00400713    # addi x14, x0, 4        # x14 = okunacak boyut byte say\u0131s\u0131",
+    "0x0014 : 0x00000993    # addi x19, x0, 0        # x19 = okunan boyut byte sayac\u0131",
+    "0x0018 : 0x03370263    # beq x14, x19, state_size_ready",
+    "0x001C : 0x00052283    # lw x5, x10, 0",
+    "0x0020 : 0xFE028EE3    # beq x5, x0, state_wait_size_byte",
+    "0x0024 : 0x0005C303    # lbu x6, x11, 0         # gelen boyut byte\u0027\u0131",
+    "0x0028 : 0x006A0023    # sb x6, x20, 0          # ge\u00E7ici RAM alan\u0131na yaz",
+    "0x002C : 0x00680833    # add x16, x16, x6       # checksum \u002B= boyut byte\u0027\u0131",
+    "0x0030 : 0x001A0A13    # addi x20, x20, 1       # sonraki ge\u00E7ici byte alan\u0131",
+    "0x0034 : 0x00198993    # addi x19, x19, 1       # okunan boyut byte sayac\u0131\u002B\u002B",
+    "0x0038 : 0xFE1FF06F    # jal x0, state_read_size",
+    "0x003C : 0x32000A13    # addi x20, x0, 800",
+    "0x0040 : 0x000A2683    # lw x13, x20, 0         # x13 = TAM program boyutu (32-Bit S\u0131n\u0131rs\u0131z)",
+    "0x0044 : 0x32000A13    # addi x20, x0, 800     # x20 = ge\u00E7ici adres alan\u0131 = 0x00F0",
+    "0x0048 : 0x00400713    # addi x14, x0, 4        # x14 = okunacak adres byte say\u0131s\u0131",
+    "0x004C : 0x00000993    # addi x19, x0, 0        # x19 = okunan adres byte sayac\u0131",
+    "0x0050 : 0x03370263    # beq x14, x19, state_address_ready",
+    "0x0054 : 0x00052283    # lw x5, x10, 0",
+    "0x0058 : 0xFE028EE3    # beq x5, x0, state_wait_address_byte",
+    "0x005C : 0x0005C303    # lbu x6, x11, 0         # gelen adres byte\u0027\u0131",
+    "0x0060 : 0x006A0023    # sb x6, x20, 0          # ge\u00E7ici RAM alan\u0131na yaz",
+    "0x0064 : 0x00680833    # add x16, x16, x6       # checksum \u002B= adres byte\u0027\u0131",
+    "0x0068 : 0x001A0A13    # addi x20, x20, 1       # sonraki ge\u00E7ici byte alan\u0131",
+    "0x006C : 0x00198993    # addi x19, x19, 1       # okunan adres byte sayac\u0131\u002B\u002B",
+    "0x0070 : 0xFE1FF06F    # jal x0, state_read_address",
+    "0x0074 : 0x32000A13    # addi x20, x0, 800",
+    "0x0078 : 0x000A2603    # lw x12, x20, 0         # x12 = program ba\u015Flang\u0131\u00E7 adresi",
+    "0x007C : 0x00C007B3    # add x15, x0, x12       # x15 = ba\u015Flang\u0131\u00E7 adresini sakla",
+    "0x0080 : 0x00000713    # addi x14, x0, 0        # x14 = al\u0131nan program byte sayac\u0131",
+    "0x0084 : 0x02E68263    # beq x13, x14, state_wait_checksum",
+    "0x0088 : 0x00052283    # lw x5, x10, 0",
+    "0x008C : 0xFE028EE3    # beq x5, x0, state_wait_data_byte",
+    "0x0090 : 0x0005C303    # lbu x6, x11, 0         # gelen program byte\u0027\u0131",
+    "0x0094 : 0x00660023    # sb x6, x12, 0          # program\u0131 RAM\u0027e yaz",
+    "0x0098 : 0x00680833    # add x16, x16, x6       # checksum \u002B= program byte\u0027\u0131",
+    "0x009C : 0x00160613    # addi x12, x12, 1       # yazma adresi\u002B\u002B",
+    "0x00A0 : 0x00170713    # addi x14, x14, 1       # al\u0131nan byte say\u0131s\u0131\u002B\u002B",
+    "0x00A4 : 0xFE1FF06F    # jal x0, state_read_data",
+    "0x00A8 : 0x00052283    # lw x5, x10, 0",
+    "0x00AC : 0xFE028EE3    # beq x5, x0, state_wait_checksum",
+    "0x00B0 : 0x0005C883    # lbu x17, x11, 0        # x17 = host checksum",
+    "0x00B4 : 0x32400A13    # addi x20, x0, 804      # ge\u00E7ici alan = 0x00F4",
+    "0x00B8 : 0x010A0023    # sb x16, x20, 0         # checksum alt 8 bit RAM\u0027e yaz\u0131l\u0131r",
+    "0x00BC : 0x000A4803    # lbu x16, x20, 0        # x16 = checksum mod 256",
+    "0x00C0 : 0x01181863    # bne x16, x17, state_send_nack",
+    "0x00C4 : 0x00600913    # addi x18, x0, 6        # ACK = 0x06",
+    "0x00C8 : 0x014000EF    # jal x1, state_send_response",
+    "0x00CC : 0x00078067    # jalr x0, x15, 0",
+    "0x00D0 : 0x01500913    # addi x18, x0, 21       # NACK = 0x15",
+    "0x00D4 : 0x008000EF    # jal x1, state_send_response",
+    "0x00D8 : 0xF29FF06F    # jal x0, state_init",
+    "0x00DC : 0x10C00A93    # addi x21, x0, 268      # x21 = TX_STATUS = 0x010C",
+    "0x00E0 : 0x000AAB03    # lw x22, x21, 0",
+    "0x00E4 : 0xFE0B0EE3    # beq x22, x0, state_wait_tx_ready",
+    "0x00E8 : 0x10800A93    # addi x21, x0, 264      # x21 = TX_DATA = 0x0108",
+    "0x00EC : 0x012AA023    # sw x18, x21, 0         # ACK/NACK g\u00F6nder",
+    "0x00F0 : 0x00008067    # jalr x0, x1, 0"
+  ],
+  "DataSegment": [],
+  "SymbolTable": {
+    "state_init": {
+      "Address": 0,
+      "Segment": "Text"
+    },
+    "state_prepare_size": {
+      "Address": 12,
+      "Segment": "Text"
+    },
+    "state_read_size": {
+      "Address": 24,
+      "Segment": "Text"
+    },
+    "state_wait_size_byte": {
+      "Address": 28,
+      "Segment": "Text"
+    },
+    "state_size_ready": {
+      "Address": 60,
+      "Segment": "Text"
+    },
+    "state_prepare_address": {
+      "Address": 68,
+      "Segment": "Text"
+    },
+    "state_read_address": {
+      "Address": 80,
+      "Segment": "Text"
+    },
+    "state_wait_address_byte": {
+      "Address": 84,
+      "Segment": "Text"
+    },
+    "state_address_ready": {
+      "Address": 116,
+      "Segment": "Text"
+    },
+    "state_read_data": {
+      "Address": 132,
+      "Segment": "Text"
+    },
+    "state_wait_data_byte": {
+      "Address": 136,
+      "Segment": "Text"
+    },
+    "state_wait_checksum": {
+      "Address": 168,
+      "Segment": "Text"
+    },
+    "state_verify_checksum": {
+      "Address": 180,
+      "Segment": "Text"
+    },
+    "state_send_ack": {
+      "Address": 196,
+      "Segment": "Text"
+    },
+    "state_jump_program": {
+      "Address": 204,
+      "Segment": "Text"
+    },
+    "state_send_nack": {
+      "Address": 208,
+      "Segment": "Text"
+    },
+    "state_send_response": {
+      "Address": 220,
+      "Segment": "Text"
+    },
+    "state_wait_tx_ready": {
+      "Address": 224,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [],
+  "ReferenceTable": {},
+  "RelocationTable": [],
+  "ExternalSymbols": []
+}

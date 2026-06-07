@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="45" Alu="7" Lut="73" Bsram="4" T_Register="548(45)" T_Alu="195(7)" T_Lut="1277(73)" T_Bsram="6(4)">
+ <SubModule name="cpu" Register="442" Alu="188" Lut="1107" Bsram="2" T_Register="442(442)" T_Alu="188(188)" T_Lut="1107(1107)" T_Bsram="2(2)"/>
+ <SubModule name="receiver" Register="38" Lut="62" T_Register="38(38)" T_Lut="62(62)"/>
+ <SubModule name="transmitter" Register="23" Lut="35" T_Register="23(23)" T_Lut="35(35)"/>
+</Module>

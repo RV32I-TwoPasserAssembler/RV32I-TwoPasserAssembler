@@ -1,0 +1,49 @@
+{
+  "FileName": "main.o",
+  "TextSegment": [
+    "0x0000 : 0x20000213    # addi x4, x0, 512   # LED adresi",
+    "0x0004 : 0x0FF00393    # addi x7, x0, 255    # a\u00E7\u0131k de\u011Feri",
+    "0x0008 : 0x00000413    # addi x8, x0, 0      # kapal\u0131 de\u011Feri",
+    "0x000C : 0x00722023    # sw x7, x4, 0         # LED YAK",
+    "0x0010 : 0x000000EF    # jal x1, bekle_fonksiyonu   # x1\u0027e d\u00F6n\u00FC\u015F adresi kaydedilir",
+    "0x0014 : 0x00822023    # sw x8, x4, 0         # LED S\u00D6ND\u00DCR",
+    "0x0018 : 0x000000EF    # jal x1, bekle_fonksiyonu   # x1\u0027e d\u00F6n\u00FC\u015F adresi kaydedilir",
+    "0x001C : 0xFF1FF06F    # jal x0, sonsuz_dongu  # ba\u015Fa d\u00F6n"
+  ],
+  "DataSegment": [
+    "0x0000 : 0x00000000    # .word 0"
+  ],
+  "SymbolTable": {
+    "start": {
+      "Address": 0,
+      "Segment": "Text"
+    },
+    "sonsuz_dongu": {
+      "Address": 12,
+      "Segment": "Text"
+    }
+  },
+  "GlobalSymbols": [
+    "start"
+  ],
+  "ReferenceTable": {
+    "1": "bekle_fonksiyonu"
+  },
+  "RelocationTable": [
+    {
+      "Address": 16,
+      "InstructionType": "J",
+      "TargetRefId": 1,
+      "Operation": "\u002B"
+    },
+    {
+      "Address": 24,
+      "InstructionType": "J",
+      "TargetRefId": 1,
+      "Operation": "\u002B"
+    }
+  ],
+  "ExternalSymbols": [
+    "bekle_fonksiyonu"
+  ]
+}

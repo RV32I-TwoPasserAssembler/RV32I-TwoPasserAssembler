@@ -1,0 +1,56 @@
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.exe
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.AssemblyInfoInputs.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.AssemblyInfo.cs
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.csproj.CoreCompileInputs.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\refint\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.pdb
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.deps.json
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.runtimeconfig.json
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.pdb
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.genruntimeconfig.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı\obj\Debug\net9.0\ref\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.exe
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.deps.json
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.runtimeconfig.json
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.pdb
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.AssemblyInfoInputs.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.AssemblyInfo.cs
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.csproj.CoreCompileInputs.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\refint\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.pdb
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.genruntimeconfig.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\ref\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.exe
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.deps.json
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.runtimeconfig.json
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.pdb
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.AssemblyInfoInputs.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.AssemblyInfo.cs
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.csproj.CoreCompileInputs.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\refint\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.pdb
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.genruntimeconfig.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı\obj\Debug\net9.0\ref\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.exe
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.deps.json
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.runtimeconfig.json
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\bin\Debug\net9.0\assembler tasarımı.pdb
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.AssemblyInfoInputs.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.AssemblyInfo.cs
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.csproj.CoreCompileInputs.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\refint\assembler tasarımı.dll
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.pdb
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\assembler tasarımı.genruntimeconfig.cache
+C:\Users\dogru\Desktop\3.sınıf ders\Sistem Programlama\assembler tasarımı (4)\assembler tasarımı (3)\assembler tasarımı (7)\assembler tasarımı\obj\Debug\net9.0\ref\assembler tasarımı.dll
