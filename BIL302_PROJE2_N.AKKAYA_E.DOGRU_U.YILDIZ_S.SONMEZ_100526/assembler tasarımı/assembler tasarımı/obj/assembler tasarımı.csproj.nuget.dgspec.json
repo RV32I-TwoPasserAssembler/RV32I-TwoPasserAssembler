@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\Odev2\\assembler tasarımı\\assembler tasarımı\\assembler tasarımı.csproj": {}
+    "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\BIL302_PROJE2_N.AKKAYA_E.DOGRU_U.YILDIZ_S.SONMEZ_100526\\assembler tasarımı\\assembler tasarımı\\assembler tasarımı.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\Odev2\\assembler tasarımı\\assembler tasarımı\\assembler tasarımı.csproj": {
+    "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\BIL302_PROJE2_N.AKKAYA_E.DOGRU_U.YILDIZ_S.SONMEZ_100526\\assembler tasarımı\\assembler tasarımı\\assembler tasarımı.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\Odev2\\assembler tasarımı\\assembler tasarımı\\assembler tasarımı.csproj",
+        "projectUniqueName": "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\BIL302_PROJE2_N.AKKAYA_E.DOGRU_U.YILDIZ_S.SONMEZ_100526\\assembler tasarımı\\assembler tasarımı\\assembler tasarımı.csproj",
         "projectName": "assembler tasarımı",
-        "projectPath": "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\Odev2\\assembler tasarımı\\assembler tasarımı\\assembler tasarımı.csproj",
+        "projectPath": "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\BIL302_PROJE2_N.AKKAYA_E.DOGRU_U.YILDIZ_S.SONMEZ_100526\\assembler tasarımı\\assembler tasarımı\\assembler tasarımı.csproj",
         "packagesPath": "C:\\Users\\umuty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\Odev2\\assembler tasarımı\\assembler tasarımı\\obj\\",
+        "outputPath": "C:\\Users\\umuty\\Desktop\\Dersler_Odevler\\Sistem_Programlama\\Proje_Odevleri\\RV32I-TwoPasserAssembler\\BIL302_PROJE2_N.AKKAYA_E.DOGRU_U.YILDIZ_S.SONMEZ_100526\\assembler tasarımı\\assembler tasarımı\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umuty\\AppData\\Roaming\\NuGet\\NuGet.Config"

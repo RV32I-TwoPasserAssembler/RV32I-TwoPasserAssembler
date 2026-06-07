@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("assembler tasarımı")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13c9ef335737da23a8496ffd15465de7cd52db9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b21b911f3223dc9546c3b0dfbc444e1b03204ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("assembler tasarımı")]
 [assembly: System.Reflection.AssemblyTitleAttribute("assembler tasarımı")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
